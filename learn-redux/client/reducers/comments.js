@@ -2,7 +2,7 @@
 
 function comments(state=[],action){
     console.log("Comment will change");
-    console.log(state, action);
+    //console.log(state, action);
     return state;
 }
 
