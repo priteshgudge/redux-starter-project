@@ -2,16 +2,9 @@
 
 This repo includes the `learn-redux` folder which is where you will build your application as well as a number of partially finished `client` folder contents that correspond with the **start** of each video. These stepped folders should be used to reference or restore your application if things aren't working 100%.
 
-There are only folders for videos which have significant changes.
-
 ## Getting Started
 
 Fork or download this repo and run `npm install` in the `learn-redux` folder with the `package.json` file.
-
-
-## Pull Requests 
-
-Pull requests that fix dependencies between the videos and this repo are welcome as long as they correspond with the code written in the videos.
 
 
 ## FAQ / Help
@@ -26,10 +19,6 @@ Pull requests that fix dependencies between the videos and this repo are welcome
 ### Q: I'm getting Unexpected Token Error
 
 **A:** You probably don't have the `.babelrc` file in your `learn-redux` folder. This makes sure that you have all the right transpile dependencies. [Grab it from here](https://github.com/wesbos/Learn-Redux-Starter-Files/blob/master/learn-redux/.babelrc).
-
-### Q: How do I download these videos?
-
-**A:** I made a video for [exactly this](https://www.youtube.com/watch?v=-eUd2k5M1B0). 
 
 ### Q: What theme and font are you using?
 
