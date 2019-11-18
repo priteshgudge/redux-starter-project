@@ -1,16 +1,17 @@
 // A recucer takes in (action, copy of current state)
 
 function postComments(state=[], action){
-    console.log("post comments");
     switch (action.type) {
         case "ADD_COMMENT":
+            console.log("post comments");
             // Return state with new comment
             return [...state,{
                 user: action.author,
                 text: action.comment}];
         case "REMOVE_COMMENT":
-            console.log("");
-            return state;
+            console.log("Removing a comment");
+            return [...state.slice(0,action.i),
+                ...state.slice(action.i+1, state.length)];
         default:
             return state;
 

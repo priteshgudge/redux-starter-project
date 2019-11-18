@@ -14,6 +14,7 @@ const Single = React.createClass({
                 <Photo post={post} i={i} {...this.props} />
                 <Comments comments={postComments}
                     postId={postId} addComment={this.props.addComment}
+                          removeComment={this.props.removeComment}
 
                 />
             </div>
