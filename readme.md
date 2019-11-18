@@ -8,9 +8,9 @@ Fork or download this repo and run `npm install` in the `learn-redux` folder wit
 
 A few images from the application
 
-![Grid](./images/1.png)
+![Grid](./learn-redux/images/1.png)
 
-![Single](./images/2.png)
+![Single](./learn-redux/images/2.png)
 
 ## FAQ / Help
 
