@@ -6,6 +6,11 @@ This repo includes the `learn-redux` folder which is where you will build your a
 
 Fork or download this repo and run `npm install` in the `learn-redux` folder with the `package.json` file.
 
+A few images from the application
+
+![Grid](./images/1.png)
+
+![Single](./images/2.png)
 
 ## FAQ / Help
 
